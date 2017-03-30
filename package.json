@@ -1,0 +1,29 @@
+{
+  "name": "MegaBog2017",
+  "author": "kmpiekarski",
+  "version": "1.0.3",
+  "license": "GPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kmpiekarski/megabog.com"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "latest",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "latest",
+    "gulp-concat": "latest",
+    "gulp-filter": "latest",
+    "gulp-imagemin": "latest",
+    "gulp-line-ending-corrector": "latest",
+    "gulp-merge-media-queries": "latest",
+    "gulp-notify": "3.0.0",
+    "gulp-rename": "latest",
+    "gulp-sass": "latest",
+    "gulp-sort": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-uglify": "latest",
+    "gulp-uglifycss": "1.0.6",
+    "gulp-wp-pot": "latest"
+  }
+}

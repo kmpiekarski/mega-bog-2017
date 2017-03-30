@@ -1,0 +1,251 @@
+body {
+  padding-top: 50px;
+  font-family: 'Crimson Text', serif;
+}
+
+section.page-content {
+  padding-bottom: 50px;
+}
+
+footer {
+  color: #fff;
+  padding-top: 25px;
+  background: #000;
+  font-family: "Open Sans", sans-serif;
+}
+
+/*
+**  Nav
+*/
+#home .main {
+  font-size: 18px;
+}
+#home .navbar-brand {
+  color: #999999;
+}
+#home nav.navbar-default {
+  font-family: 'Crimson Text', serif;
+  font-size: 16px;
+  background: #000;
+  color: #fff;
+  letter-spacing: .1em;
+  border: none;
+}
+#home .navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+#home .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #e7e7e7;
+  background-color: rgba(231, 231, 231, 0.45);
+}
+
+#home .order-box {
+  color: #fff;
+  border-color: #fff;
+}
+#home .order-box-label {
+  background: #000;
+  color: #fff;
+}
+
+/* Nav single pages */
+
+nav.navbar-brand {
+  color: #fff;
+}
+nav.navbar-default {
+  font-family: 'Crimson Text', serif;
+  font-size: 16px;
+  background: #fff;
+  color: #999;
+  letter-spacing: .1em;
+  border: none;
+}
+nav.navbar-default .navbar-nav>li>a {
+  color: #999;
+}
+nav.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #0e0e0e;
+  background-color: rgba(231, 231, 231, 0.45);
+}
+
+/*
+**  Home Page
+*/
+
+#home header {
+  background-color: #000;
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  overflow-y: hidden;
+  background-attachment: scroll;
+  background-position-x: center;
+  background-position-y: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+#home .header-content {
+  margin-right: auto;
+  margin-left: auto;
+/*  position: absolute;
+  top: 50%;
+  padding: 0 50px;*/
+  /* -webkit-transform: translateY(-50%); */
+/*  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); */
+}
+
+#announcement-image img {
+  max-width: 320px;
+  width: 100%;
+}
+#announcement-description {
+  padding: 30px 25px 25px 15px;
+  text-align: left;
+}
+#announcement-description a:visited,
+#announcement-description a:link {
+  color: #fff;
+  text-decoration: underline;
+}
+#announcement-image {
+  padding: 30px 15px 25px 25px;
+  text-align: center;
+}
+h1#announcement-title {
+ color: rgb(179, 203, 216);
+  font-size: 23px;
+}
+h2#announcement-copy {
+  font-size: 18px;
+  line-height: 1.2em;
+  font-weight: 100;
+  color: #e6e6e6;
+}
+
+section.page-content h3 {
+  border-bottom: 1px solid #000;
+  font-size: 30px;
+}
+
+
+
+
+@media (min-width: 992px) {
+
+  #home header .header-content {
+      width: 750px;
+  }
+
+}
+
+@media (max-width: 375px) {
+  #home #announcement-image {
+    padding: 0px;
+  }
+}
+/*
+**  Other Pages
+*/
+header {
+  text-align: center;
+  padding: 50px 10px;
+}
+header .title-divider{
+  width: 240px;
+  border: 1px solid #545454;
+  height: 4px;
+  margin: 0px auto;
+}
+h1.page-title {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 48px;
+  letter-spacing: 0.085em;
+  text-shadow: 1px 1px 2px #a5a5a5;
+}
+
+
+/*
+**  Album Pages
+*/
+
+h2.release-title {
+  text-transform: uppercase;
+  font-size: 22px;
+  padding: 10px 0;
+  letter-spacing: .1em;
+
+}
+h3.release-label {
+  font-size: 16px;
+}
+
+.order-box {
+  font-family: "Open Sans", sans-serif;
+  border: 2px solid #000;
+  display: inline-block;
+  padding: 0px 6px;
+  margin: 10px 0;
+}
+.order-box-label {
+  text-transform: uppercase;
+  background: #fff;
+  position: absolute;
+  margin-top: -11px;
+  padding: 0px 5px;
+  margin-left: 5px;
+  font-weight: bold;
+  color: #000
+}
+.order-box-button {
+  background: rgb(216, 4, 0);
+  color: #fff;
+  float: left;
+  min-width: 70px;
+  text-align: center;
+  padding: 5px;
+  margin: 10px 5px;
+  text-decoration: none !important;
+}
+
+.order-box-button:hover {
+  background: rgba(162, 3, 0, 1);
+  color: #fff;
+}
+
+.release-image img {
+  width: 100%;
+}
+
+.release-description {
+  font-size: 16px;
+}
+
+/* Site Credits */
+#site-credits {
+  text-align: right;
+  font-size: 12px;
+}
+#site-credits a:focus, #site-credits a:active, #site-credits a:hover {
+    -webkit-animation: rainbow 1s infinite;
+    -ms-animation: rainbow 1s infinite;
+    -o-animation: rainbow 1s infinite;
+    animation: rainbow 1s infinite;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+#site-credits a:focus, #site-credits a:active, #site-credits a:hover {
+    color: #00dcff;
+    text-decoration: none;
+    border: 1px solid;
+}
+#site-credits a {
+    border: 1px solid transparent;
+    margin-right: -11px;
+    padding: 0 4px 0 6px;
+    text-transform: uppercase;
+    color: #00dcff;
+}

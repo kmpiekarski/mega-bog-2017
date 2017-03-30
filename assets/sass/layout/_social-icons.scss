@@ -1,0 +1,84 @@
+$twitter: #00aced;
+$facebook: #3b5998;
+$googleplus: #dd4b39;
+$pinterest: #cb2027;
+$linkedin: #007bb6;
+$youtube: #bb0000;
+$vimeo: #1ab7ea;
+$tumblr: #32506d;
+$instagram: #517fa4;
+$flickr: #ff0084;
+$dribbble: #ea4c89;
+$quora: #a82400;
+$foursquare: #0072b1;
+$forrst: #5B9A68;
+$vk: #45668e;
+$wordpress: #21759b;
+$stumbleupon: #EB4823;
+$yahoo: #7B0099;
+$blogger: #fb8f3d;
+$soundcloud: #ff3a00;
+$bandcamp: rgb(112, 145, 155);
+$spotify: rgb(120, 213, 98);
+
+.social-icons {
+  font-size: 21px !important;
+  text-align: center;
+  border-radius: 25px;
+  color: #fff;
+  transition: all .10s ease;
+}
+footer {
+  .social-icon-zone {
+    text-align: center;
+    padding-bottom: 15px;
+    a {
+      display: inline-block;
+      margin-right: 5px;
+    }
+    .social-icons {
+      border: 1px solid #fff;
+      line-height: 34px !important;
+      width: 36px;
+      height: 36px;
+    }
+  }
+}
+.social-icons:focus,
+.social-icons:hover { color: #fff}
+#soc-f:hover {
+  background-color: $facebook;
+  border-color: $facebook;
+}
+#soc-sc:hover {
+  background-color: $soundcloud;
+  border-color: $soundcloud;
+}
+#soc-yt:hover {
+  background-color: $youtube;
+  border-color: $youtube;
+}
+#soc-bc:hover {
+  background-color: $bandcamp;
+  border-color: $bandcamp;
+}
+#soc-in:hover {
+  background-color: $instagram;
+  border-color: $instagram;
+}
+#soc-tw:hover {
+  background-color: $twitter;
+  border-color: $twitter;
+}
+#soc-vi:hover {
+  background-color: $vimeo;
+  border-color: $vimeo;
+}
+#soc-tu:hover {
+  background-color: $tumblr;
+  border-color: $tumblr;
+}
+#soc-spot:hover {
+  background-color: $spotify;
+  border-color: $spotify;
+}

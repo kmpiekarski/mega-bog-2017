@@ -1,0 +1,90 @@
+/*--------------------------------------------------------------
+## Links
+--------------------------------------------------------------*/
+@import "links";
+
+/*--------------------------------------------------------------
+## Menus
+--------------------------------------------------------------*/
+@import "menus";
+
+/*--------------------------------------------------------------
+## Home Nav
+--------------------------------------------------------------*/
+
+#home {
+  .main {
+    font-size: 18px;
+  }
+  .navbar-brand {
+    color: #999999;
+  }
+  nav.navbar-default {
+    font-family: 'Crimson Text', serif;
+    font-size: 16px;
+    background: #000;
+    color: #fff;
+    letter-spacing: .1em;
+    border: none;
+  }
+  .navbar-default #primary-menu  > li > a {
+    color: #fff;
+    &:focus {
+      color: #e7e7e7;
+      background-color: rgba(231, 231, 231, 0.45);
+    }
+  }
+}
+
+.navbar-default #primary-menu  > li > a:hover {
+  color: #e7e7e7;
+  background-color: rgba(231, 231, 231, 0.45);
+}
+
+#home {
+  .order-box {
+    color: #fff;
+    border-color: #fff;
+  }
+  .order-box-label {
+    background: #000;
+    color: #fff;
+  }
+}
+
+/*--------------------------------------------------------------
+## Other Pages Nav
+--------------------------------------------------------------*/
+
+nav {
+  text-transform: lowercase;
+  &.navbar-brand {
+    color: #fff;
+  }
+  &.navbar-default {
+    font-family: 'Crimson Text', serif;
+    font-size: 16px;
+    background: #fff;
+    color: #999;
+    letter-spacing: .1em;
+    border: none;
+    #primary-menu  > li > a {
+      color: #999;
+      &:focus {
+        color: #0e0e0e;
+        background-color: rgba(231, 231, 231, 0.45);
+      }
+    }
+  }
+}
+
+.navbar-default #primary-menu  > li > a:hover {
+  color: #0e0e0e;
+  background-color: rgba(231, 231, 231, 0.45);
+}
+
+@media (max-width: 768px) {
+  .main-navigation li {
+    float: none;
+  }
+}

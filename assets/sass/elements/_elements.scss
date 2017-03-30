@@ -1,0 +1,84 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+  box-sizing: inherit;
+}
+
+body {
+  background: $color__background-body;
+  padding-top: 50px;
+  font-family: $font__main;
+}
+#content.site-content {
+  min-height: 580px;
+  background: #fff;
+}
+
+header.main-header {
+  text-align: center;
+  padding: 10px 10px 30px;
+  .title-divider {
+    width: 240px;
+    border: 1px solid #545454;
+    height: 4px;
+    margin: 0px auto;
+  }
+}
+
+section.page-content {
+  padding-bottom: 50px;
+}
+
+footer#main-footer {
+  color: #fff;
+  padding: 25px 15px;
+  background: #333;
+  font-family: $font__footer;
+  min-height: 100px;
+  font-weight: 100;
+  text-align: center;
+}
+
+blockquote, q {
+  quotes: "" "";
+
+  &:before,
+  &:after {
+    content: "";
+  }
+}
+
+hr {
+  background-color: $color__background-hr;
+  border: 0;
+  height: 1px;
+  margin-bottom: 1.5em;
+}
+
+@import "lists";
+
+img {
+  height: auto; /* Make sure images are scaled correctly. */
+  max-width: 100%; /* Adhere to container width. */
+}
+
+figure {
+  margin: 1em 0; /* Extra wide images within figure tags don't overflow the content area. */
+}
+
+@import "tables";
+
+/*
+ * If logged in, make room for the admin bar
+*/
+
+body.admin-bar {
+  nav {
+    margin-top: 32px;
+  }
+}
+
