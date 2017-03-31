@@ -22,7 +22,7 @@ get_header(); ?>
   <div class="header-content">
     <div id="announcement">
       <div id="announcement-image" class="col-xs-12 col-sm-6">
-        <img src="wp-content/themes/mega-bog-2017/assets/img/happy-together-cover.jpg" />
+        <img src="/wp-content/themes/mega-bog-2017/assets/img/happy-together-cover.jpg" />
       </div>
       <div id="announcement-description" class="col-xs-12 col-sm-6">
         <h1 id="announcement-title">
