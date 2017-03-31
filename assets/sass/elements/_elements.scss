@@ -52,6 +52,10 @@ blockquote, q {
   }
 }
 
+p {
+  word-wrap: break-word;
+}
+
 hr {
   background-color: $color__background-hr;
   border: 0;

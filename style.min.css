@@ -58,6 +58,7 @@ section.page-content{padding-bottom:50px}
 footer#main-footer{color:#fff;padding:25px 15px;background:#333;font-family:"Open Sans",sans-serif;min-height:100px;font-weight:100;text-align:center}
 blockquote,q{quotes:"" ""}
 blockquote:before,blockquote:after,q:before,q:after{content:""}
+p{word-wrap:break-word}
 hr{background-color:#ccc;border:0;height:1px;margin-bottom:1.5em}
 ul,ol{margin:0 0 1.5em 1em}
 ul{list-style:disc}
