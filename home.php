@@ -12,10 +12,6 @@
  * @package mega-bog-2017
  */
 
-
-$lp_link =  get_post_meta( get_the_ID(), 'lp-link', true );
-$digital_link =  get_post_meta( get_the_ID(), 'digital-link', true );
-
 get_header(); ?>
 
 <header id="home-header" class="main-header">
@@ -37,8 +33,8 @@ get_header(); ?>
 
           <div class="order-box">
             <div class="order-box-label">Order</div>
-              <a href="<? echo $lp_link ?>" target="_new" class="order-box-button">LP</a>
-              <a href="<? echo $digital_link ?>" target="_new" class="order-box-button">Digital</a>
+              <a href="http://niceymusic.com/product/mega-bog-happy-together-lpcd/" target="_new" class="order-box-button">LP</a>
+              <a href="https://megabog.bandcamp.com/album/happy-together" target="_new" class="order-box-button">Digital</a>
               <a href="https://play.spotify.com/album/7z7hGOK5ZvGQ2rCp9TyMHc?play=true" target="_new" class="order-box-button">Stream</a>
           </div>
         </div>
