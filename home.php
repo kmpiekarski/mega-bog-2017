@@ -46,6 +46,28 @@ get_header(); ?>
     </div>
   </div>
 </header>
+<section id="mailchimp-signup">
+
+  <!-- Begin MailChimp Signup Form -->
+
+  <div class="container">
+    <div id="mc_embed_signup" class="col-sm-12">
+      <h4 class="mailchimp-title">subscribe for big news</h4>
+
+      <form action="//megabog.us15.list-manage.com/subscribe/post?u=87244c894154aafff82072de3&amp;id=7c0ad31b75" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div id="mc_embed_signup_scroll">
+        <input type="email" value="" name="EMAIL" class="email col-xs-12 col-sm-4" id="mce-EMAIL" placeholder="email address" required>
+        <input type="text" value="" name="MMERGE3" class="zip col-xs-12 col-sm-4" id="mce-MMERGE3" placeholder="Zip" required>
+
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_87244c894154aafff82072de3_7c0ad31b75" tabindex="-1" value=""></div>
+        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button col-xs-12 col-sm-4"></div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</section>
 <section class="main">
   <div class="container">
     <div class="col-sm-12 col-md-6">

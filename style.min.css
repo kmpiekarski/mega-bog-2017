@@ -150,6 +150,10 @@ nav.navbar-default #primary-menu>li>a:focus{color:#0e0e0e;background-color:rgba(
 h1#announcement-title{color:#b3cbd8;font-size:23px}
 h2#announcement-copy{font-size:18px;line-height:1.2em;font-weight:100;color:#e6e6e6}
 section.page-content h3{border-bottom:1px solid #000;font-size:30px}
+section#mailchimp-signup{padding:15px 0 30px;background:-webkit-repeating-linear-gradient(145deg,#222,#222 10px,#333 10px,#333 20px);background:repeating-linear-gradient(-55deg,#222,#222 10px,#333 10px,#333 20px)}
+h4.mailchimp-title{color:#FFF;text-align:center;letter-spacing:.2em}
+#mc-embedded-subscribe{border:2px solid;border-color:#31708f;border-radius:3px;background:#00b9eb;color:rgba(0,0,0,0.8);font-size:15px;line-height:1;padding:7px;font-weight:900;letter-spacing:.3em;text-transform:uppercase}
+#mc-embedded-subscribe,input{font-family:"Open Sans",sans-serif}
 .content-area{max-width:960px;margin:0 auto}
 h1.page-title{font-family:'Libre Baskerville',serif;font-size:38px;letter-spacing:.085em;text-shadow:1px 1px 2px #a5a5a5}
 #copyright{padding:15px 0;font-size:14px}
@@ -898,9 +902,11 @@ embed,iframe,object{max-width:100%}
 .sr-only-focusable:active,.sr-only-focusable:focus{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto}
 @media screen and (min-width:37.5em){.menu-toggle{display:none}
 .main-navigation ul{display:block}
+}@media(min-width:767px){section#mailchimp-signup .email,section#mailchimp-signup .zip{margin-right:15px;width:31%}
 }@media(min-width:992px){#home header .header-content{width:750px}
 }@media(min-width:1200px){.container{width:970px}
-}@media(max-width:768px){.main-navigation li{float:none}
+}@media(max-width:767px){.main-navigation li{float:none}
+section#mailchimp-signup input{margin-bottom:15px}
 }@media(max-width:375px){#home #announcement-image{padding:0}
 }@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}
 100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}

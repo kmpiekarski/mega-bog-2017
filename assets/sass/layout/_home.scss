@@ -74,3 +74,49 @@ section.page-content h3 {
     padding: 0px;
   }
 }
+
+/* Mailchimp Signup form */
+section#mailchimp-signup {
+  padding: 15px 0 30px;
+  background: repeating-linear-gradient( -55deg, #222, #222 10px, #333 10px, #333 20px );
+}
+h4.mailchimp-title {
+  color: #FFF;
+  text-align: center;
+  letter-spacing: .2em;
+}
+#mc-embedded-subscribe {
+  border: 2px solid;
+  border-color: #31708f;
+  border-radius: 3px;
+  background: #00b9eb;
+  color: rgba(0,0,0,0.8);
+  font-size: 15px;
+  line-height: 1;
+  padding: 7px;
+  font-weight:900;
+  letter-spacing: .3em;
+  text-transform: uppercase;
+}
+#mc-embedded-subscribe,
+input {
+  font-family: $font__buttons;
+}
+
+@media (min-width: 767px) {
+  section#mailchimp-signup {
+    .email, .zip {
+      margin-right: 15px;
+      width: 31%;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  section#mailchimp-signup {
+    input {
+      margin-bottom: 15px;
+    }
+  }
+}
+
