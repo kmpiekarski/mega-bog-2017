@@ -22,7 +22,7 @@ get_header(); ?>
       </div>
       <div id="announcement-description" class="col-xs-12 col-sm-6">
         <h1 id="announcement-title">
-          "Happy Togehter" Out Now on Nicey Records
+          "Happy Together" Out Now on Nicey Music
         </h1>
         <h2 id="announcement-copy">
           “Mega Bog’s second album, Happy Together evokes a different kind of lush, green fantasia—something about its wobbling saxophone and loosey-goosey guitar suggests a mysterious caper beneath the fronds of a vast weeping willow.”
